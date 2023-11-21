@@ -50,13 +50,6 @@ public class ConnectedComponents {
     }
 
     public static void main(String[] args) {
-        /*DirectedGraph graph = new DirectedGraph(4);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 1);
-        graph.addEdge(3, 0);
-        graph.connectedComponents();*/
-
         int v, w;
         System.out.print("Введите кол-во вершин: ");
         Scanner scanner = new Scanner(System.in);

@@ -51,7 +51,7 @@ public class DijkstraAlgorithm {
         }
     }
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] graph = {
                 {0,10,3,0},
                 {10,0,4,0},
@@ -60,5 +60,5 @@ public class DijkstraAlgorithm {
         };
 
         dijkstra(graph, 0);
-    }*/
+    }
 }

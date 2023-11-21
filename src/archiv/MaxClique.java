@@ -60,7 +60,7 @@ public class MaxClique {
         }
     }
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] graph = {
                 {0, 1, 1, 0,0,0},
                 {0, 0, 0, 1,1,1},
@@ -73,5 +73,5 @@ public class MaxClique {
         archiv.MaxClique maxCliqueFinder = new archiv.MaxClique(graph);
         List<Integer> maxClique = maxCliqueFinder.findMaximumClique();
         System.out.println("Максимальная клика: " + maxClique);
-    }*/
+    }
 }
